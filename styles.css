@@ -66,7 +66,8 @@ header {
 }
 
 main section {
-  padding: 0 32px
+  padding: 0 32px;
+  margin: 0px 0 80px 0;
 }
 
 /* =====================
@@ -119,7 +120,6 @@ main section {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 80px 0;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(/banner/banner.jpg);
   background-size: cover;
@@ -164,5 +164,20 @@ main section {
 .about img {
   height: 400px;
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 
 
