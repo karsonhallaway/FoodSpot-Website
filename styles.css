@@ -216,6 +216,19 @@ main section {
   box-shadow: 4px 4px 32px var(--light-gray);
 }
 
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.team-card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
 
 
 
