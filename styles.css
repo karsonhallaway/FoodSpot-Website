@@ -1,3 +1,6 @@
+/* =====================
+  CSS Reset styling
+======================== */
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +10,9 @@
   font-style: normal;
 }
 
+/* =====================
+  Brand Colors
+======================== */
 :root {
   --primary: #e8f4e7;
   --secondary: #f13914;
@@ -16,6 +22,9 @@
   --white: #f5f5f5;
 }
 
+/* =====================
+  Global Styling
+======================== */
 body {
   min-height: 100vh;
   margin: 0 auto;
@@ -44,6 +53,9 @@ img {
   border-radius: 24px;
 }
 
+/* =====================
+  Main Sections Styling
+======================== */
 header {
   display: flex;
   justify-content: space-between;
@@ -57,6 +69,9 @@ main section {
   padding: 0 32px
 }
 
+/* =====================
+  Navigation Styling
+======================== */
 .navigation {
   background: var(--primary);
   padding: 32px;
@@ -94,6 +109,9 @@ main section {
   font-style: normal;
 }
 
+/* =====================
+  Banner Styling
+======================== */
 .banner {
   width: 100%;
   min-height: 100vh;
@@ -119,7 +137,9 @@ main section {
   margin: 8px;
 }
 
-
+/* =====================
+  Button Styling
+======================== */
 .btn-primary {
   background-color: var(--secondary);
   padding: 16px 32px;
@@ -131,6 +151,9 @@ main section {
   margin: 16px;
 }
 
+/* =====================
+  About Section Styling
+======================== */
 .about {
   display: flex;
   align-items: center;
@@ -141,4 +164,5 @@ main section {
 .about img {
   height: 400px;
 }
+
 
