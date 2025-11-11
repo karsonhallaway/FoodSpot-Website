@@ -223,6 +223,12 @@ main section {
   gap: 40px;
 }
 
+.team-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .team-card-container {
   display: flex;
   justify-content: center;
