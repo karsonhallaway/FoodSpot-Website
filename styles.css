@@ -283,11 +283,6 @@ nav {
   p {
     max-width: 40ch;
   }
-
-  .form-container {
-    max-width: 400px;
-  }
-
 }
 
 /* =====================
@@ -461,6 +456,14 @@ input {
   border-radius: 8px;
   color: var(--secondary);
   text-align: center;
+}
+
+
+/* Contact Form Section Responsive styling */
+@media (max-width: 480px) {
+  .form-container {
+    max-width: 400px;
+  }
 }
 
 /* =====================
