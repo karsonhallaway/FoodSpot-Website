@@ -12,10 +12,10 @@
 </head>
 <body>
     <header class="navigation">
-        <a class="logo" href="#">Food<span>Spot</span></a>
-        <i class="fas fa-bars menu-toggle" onclick="toggleMenu()"></i>
         <nav>
-            <ul class="nav-links">
+            <a class="logo" href="#">Food<span>Spot</span></a>
+            <i class="fas fa-bars menu-toggle" onclick="toggleMenu()"></i>
+            <ul id="nav-links" class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Menu</a></li>
@@ -137,9 +137,9 @@
                 <div class="form-container">
                     <h3>Send Us a Message</h3>
                     <div class="form-content">
-                        <input type="text" id="name" name="name" placeholder="Name"><br><br>
+                        <input type="text" id="name" name="name" placeholder="name"><br><br>
                         <input type="text" id="email" name="email" placeholder="email"><br><br>
-                        <input type="text" id="message" name="message" pla="messge">
+                        <input type="text" id="message" name="message" placeholder="messge">
                     </div>
                 </div>
                 <button class="btn-secondary" type="submit">Send</button>
@@ -150,5 +150,11 @@
         <p>Designed by Karson Hallaway</p>
         <div class="social-icons"></div>
     </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById("nav-links");
+            menu.classList.toggle("active");
+        }
+    </script>
 </body>
 </html>
