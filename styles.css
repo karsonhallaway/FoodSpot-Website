@@ -95,7 +95,7 @@ main section {
 .navigation {
   background: var(--primary);
   padding: 32px;
-  border-bottom: 2px solid var(--black);
+  border-bottom: 2px solid var(--gray);
 }
 
 .nav-links {
@@ -175,7 +175,6 @@ main section {
   About Section Styling
 ======================== */
 .about {
-  max-width: 1200px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -192,7 +191,6 @@ main section {
 ======================== */
 
 .menu {
-  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -239,7 +237,6 @@ main section {
 ======================== */
 
 .team {
-  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -363,12 +360,11 @@ input {
 ======================== */
 
 footer {
-  max-width: 100%;
-  padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: var(--black);
   color: var(--primary);
+  width: 100%;
+  padding: 24px;
 }
-
