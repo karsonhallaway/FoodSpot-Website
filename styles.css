@@ -62,7 +62,6 @@ i {
   font-style: italic;
   max-width: 30ch;
   text-align: center;
-  padding: 8px 0 0 8px;
 }
 
 img {
@@ -277,7 +276,38 @@ main section {
   padding: 32px 32px 24px 32px;
   border: 2px solid var(--gray);
   border-radius: 32px;
+  gap: 8px;
   background-color: var(--white);
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 16px;
+  width: 500px;
+  padding: 24px;
+  gap: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid var(--gray);
+  border-radius: 4px;
 }
