@@ -62,7 +62,7 @@ b {
   margin: 8px;
 }
 
-i {
+blockquote {
   font-style: italic;
   max-width: 30ch;
   text-align: center;
@@ -111,6 +111,12 @@ main section {
   text-decoration: none;
   padding: 16px;
   color: var(--black);
+}
+
+.nav-links a:hover {
+  color: var(--white);
+  background-color: var(--accent);
+  border-radius: 8px;
 }
 
 .logo {
@@ -183,7 +189,7 @@ main section {
 }
 
 .about img {
-  height: 400px;
+  width: 1200px;
 }
 
 /* =====================
@@ -296,6 +302,11 @@ main section {
   border-radius: 32px;
   gap: 8px;
   background-color: var(--white);
+}
+
+.reviewer {
+  font-style: italic;
+  font-weight: 700;
 }
 
 /* =====================
