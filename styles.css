@@ -149,7 +149,33 @@ nav {
 /* =====================
   Navigation Mobile Styling
 ======================== */
+@media (max-width: 480px) {
+  .menu-toggle {
+    display: block; /*show hamburger icon */
+  }
 
+  .nav-links {
+    display: none; /* hide menu initially */
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: var(--primary);
+    border-bottom: 2px solid var(--gray);
+    top: 90px;
+    left: 0;
+    right: 0;
+    padding: 32px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 4px;
+  }
+
+}
 
 /* =====================
   Navigation Tablet Styling
@@ -176,10 +202,9 @@ nav {
     display: flex; /* show menu when active */
   }
 
-  .nav-links li {
-    margin: 8px;
+    .nav-links li {
+    margin: 4px;
   }
-
 }
 
 
@@ -237,6 +262,7 @@ nav {
 
 .about img {
   width: 1200px;
+  border: 2px solid var(--gray);
 }
 
 /* =====================
