@@ -286,7 +286,7 @@ nav {
 }
 
 /* About Section Tablet Styling */
-@media (max-width: 768px) {
+@media (minwidth: 481px) and (max-width:768) {
   .about-img {
     width: 600px
   }
