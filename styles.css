@@ -30,6 +30,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
   flex: 1;
   margin: 0 auto;
   background-color: var(--primary);
@@ -94,6 +95,7 @@ main section {
 .navigation {
   background: var(--primary);
   padding: 32px;
+  border-bottom: 2px solid var(--black);
 }
 
 .nav-links {
@@ -173,17 +175,24 @@ main section {
   About Section Styling
 ======================== */
 .about {
+  max-width: 1200px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 40px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .about img {
   height: 400px;
 }
 
+/* =====================
+  Menu Section Styling
+======================== */
+
 .menu {
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -225,11 +234,22 @@ main section {
   box-shadow: 4px 4px 32px var(--light-gray);
 }
 
+/* =====================
+  Team Section Styling
+======================== */
+
 .team {
+  max-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
+}
+
+.team-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .team-card-container {
@@ -238,6 +258,10 @@ main section {
   flex-wrap: wrap;
   gap: 32px;
 }
+
+/* =====================
+  Review Section Styling
+======================== */
 
 .reviews {
   display: flex;
@@ -276,6 +300,10 @@ main section {
   gap: 8px;
   background-color: var(--white);
 }
+
+/* =====================
+  Contact Section Styling
+======================== */
 
 .contact {
   display: flex;
@@ -330,6 +358,10 @@ input {
   text-align: center;
 }
 
+/* =====================
+  Footer Section Styling
+======================== */
+
 footer {
   max-width: 100%;
   padding: 24px;
@@ -339,3 +371,4 @@ footer {
   background-color: var(--black);
   color: var(--primary);
 }
+
