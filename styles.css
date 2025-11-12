@@ -58,6 +58,12 @@ b {
   margin: 8px;
 }
 
+i {
+  font-style: italic;
+  max-width: 30ch;
+  text-align: center;
+}
+
 img {
   border-radius: 24px;
 }
@@ -222,7 +228,7 @@ main section {
   align-items: center;
   gap: 40px;
 }
-  
+
 .team-card-container {
   display: flex;
   justify-content: center;
@@ -230,5 +236,72 @@ main section {
   gap: 32px;
 }
 
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(/banner/reviewBanner.jpg);
+  background-size: cover;
+  padding: 40px;
+}
 
+.review-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--primary);
+}
 
+.review-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 16px;
+  cursor: pointer;
+  background-color: var(--gray);
+  padding: 32px 32px 24px 32px;
+  border: 2px solid var(--gray);
+  border-radius: 32px;
+  gap: 8px;
+  background-color: var(--white);
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.contact-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 16px;
+  width: 500px;
+  padding: 24px;
+  gap: 24px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid var(--gray);
+  border-radius: 4px;
+}
